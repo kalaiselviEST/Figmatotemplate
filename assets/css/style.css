@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.btn-primary{
+    background-color: #2639ED !important;
+    color: #fff;
+    padding:0.6rem 2.5rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    font-family: "Proxima-Nova-Regular" , sans-serif;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input.form-control{
+    border: none;
+    padding: 1.5rem;
+    line-height: 20px;
+    font-size: 14px;
+}
+input.form-control.focus{
+   box-shadow: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    font-family: "Proxima-Nova-Bold" , sans-serif;
+    font-size: 2rem;
+}
+p{
+    font-family: "Proxima-Nova-Regular" , sans-serif;
+    font-size: 0.9rem;
+
+    line-height: 25px;
+   
+}
+.rounded-rectangle{
+    height: 100px;
+    position: absolute;
+}
+.wrapper .navbar{
+    padding: 1rem;
+}
+.wrapper .navbar .navbar-nav li a {
+    padding: 0px 20px;
+    font-family: "Proxima-Nova-Regular" , sans-serif;
+    font-size: 16px;
+    color:#000;
+}
+.wrapper section {
+    padding: 80px 0px;
+}
+.wrapper .hero-section .hero-image{
+    height: 320px;
+    position: relative;
+}
+.wrapper .hero-section .hero-image img:nth-child(1){
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    left: -28px;
+    height: 96px;
+}
+.wrapper .hero-section .hero-image img:nth-child(2){
+    position: relative;
+    z-index: 2;
+}
+.wrapper .hero-section .hero-image img:nth-child(3){
+  
+    bottom: -52px;
+    right: 150px;
+    transform: rotate(-180deg);
+}
+
+.wrapper .hero-section .content{
+    padding: 3rem 0rem;
+}
+.wrapper .hero-section .content p{
+   margin: 2.5rem 0rem 2rem;
+}
+
+.wrapper .client-section img{
+    height: 30px;
+    margin: 0px 30px;
+}
+
+.wrapper .about-section .card{
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  padding: 15px 1px;
+  margin: 10px 0px;
+}
+.wrapper .about-section .card-items{
+    background-color: #F4F9FF;
+    border-radius: 200px 0px 0px 0px;
+    padding: 1rem;
+}
+.wrapper .about-section .content{
+    padding: 5rem 0rem 0rem;
+}
+.wrapper .about-section .card .icon{ 
+    height: 55px;
+    width:55px;
+}
+.wrapper .about-section .card .icon img{ 
+   
+    padding: 0.3rem;
+    text-align: center;
+
+}
+.wrapper .about-section .content .dot-image{
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+}
+.wrapper .about-section .rounded-rectangle {
+    z-index: -1;
+    top: 49px;
+    left: -19px;
+}
+.wrapper .about-section .card:nth-child(1) .icon{ 
+  background-color: #F1F7FF;
+}
+.wrapper .about-section .card:nth-child(2) .icon{ 
+background-color: #FFF7E3;
+}
+.wrapper .about-section .card:nth-child(3) .icon{ 
+background-color: #FFF2F8;
+}
+.wrapper .about-section .card:nth-child(4) .icon{ 
+background-color: #DEFFEE;
+  }
+.wrapper .about-section .card h4{
+    font-size: 1rem;
+}
+.wrapper .about-section .card p{
+    font-size: 0.7rem;
+    width: auto;
+    text-align: center;
+    margin: 2rem 0rem 0rem;
+}
+.wrapper .about-section .card-items{
+    display: grid;
+    grid-template-columns: 245px 245px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.wrapper .ellipse-half-stroke{
+    height: 80px;
+    position: absolute;
+    right: 119px;
+    z-index: -1;
+    bottom: -21px;
+}
+.wrapper .about-more-section .image img:nth-child(1){
+   border-radius: 30px;
+   height: 350px;
+}
+.wrapper .about-more-section .image .ellipse-yellow{
+    position: absolute;
+    right: 19px;
+    height: 90px;
+    bottom: 3px;
+    z-index: -1;
+}
+.wrapper .about-more-content {
+    padding: 2rem 2rem;
+}
+.wrapper .about-more-content img{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    height: 100px;
+    z-index: -1;
+}
+.wrapper .newsletter-section{
+    background-color: #F4F9FF;
+    border-radius: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.wrapper .newsletter-section img {
+    position: absolute;
+    top: -100px;
+    right: 0px;
+  object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+.wrapper .newsletter-section{
+    background-color: #F4F9FF;
+}
+.wrapper .newsletter-section .content{
+    background: #2639ED;
+    padding: 5rem 2rem;
+    border-radius: 98px 0px 0px 90px;
+}
+.wrapper .newsletter-section .content .form-background{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+.wrapper .newsletter-section .content .form-background button {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 0.5rem 1rem;
+}
+footer{
+    padding: 80px 20px;
+}
+footer h4{
+    font-size: 1rem;
+    font-family: "Proxima-Nova-Bold" , sans-serif;
+
+}footer li {
+    margin-bottom: 13px;
+}
+footer ul li a {
+    font-size: 13px;
+    list-style: none;
+    color: #000;
+
+    font-family: "Proxima-Nova-Regular" , sans-serif;
+}
+footer img{
+    height: 20px;
+    margin-right: 10px;
+}
+footer p{
+    font-size: 12px;
+    width: fit-content;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+@media (max-width:550px) {
+   
+    .wrapper .navbar{
+        padding: 1.5rem 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .wrapper .navbar  .navbar-nav {
+        margin: 1rem 0rem;
+    }
+    .wrapper .navbar .navbar-nav li a {
+        padding: 15px 0px;
+      
+    }
+    .wrapper section {
+        padding: 50px 0px;
+    }
+    .wrapper .hero-section {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .wrapper .hero-section .content p{
+        margin: 1.5rem 0rem 2rem;
+     }
+     .text-center-sm{
+        text-align: center;
+     }
+     .wrapper .client-section .image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 0px;
+     }
+     .wrapper .client-section img{
+        height: 20px;
+        margin: 0px 00px;
+        text-align: center;
+    }
+    .wrapper .about-section .rounded-rectangle , .dot-image {
+      display: none;
+    }
+}

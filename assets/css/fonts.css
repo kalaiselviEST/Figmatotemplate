@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Averto-Regular";
+    src: local("Averto-Regular"), url("../fonts/AvertaDemoPECuttedDemo-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Proxima-Nova-Regular";
+    src: local("Proxima-Nova-Regular"), url("../fonts/Proxima-Nova-Font/Proxima-Nova-Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Proxima-Nova-Bold";
+    src: local("Proxima-Nova-Bold"), url("../fonts/Proxima-Nova-Font/Proxima-Nova-Bold.otf") format("opentype");
+  }
